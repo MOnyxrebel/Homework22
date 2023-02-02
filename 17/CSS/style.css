@@ -1,0 +1,17 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.logo {
+    width: 23%;
+    align-content: flex-end;
+}
+
+
+nav {
+    background-color: blue;
+    height: 100px;
+
+}
+
