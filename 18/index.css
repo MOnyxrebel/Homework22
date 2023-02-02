@@ -1,0 +1,46 @@
+.flexContainer {
+    display: flex;
+    width: 85%;
+    
+}
+
+.workGrid {
+    display: grid;
+    grid-template-areas:
+    "itemA itemB"
+    "itemC itemD";
+    grid-template-rows:100px 100px ;
+    grid-template-columns: 500px 500px;
+    border: 1px black;
+    gap: 100px;
+    
+   
+  }
+
+
+  @media (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column; /* Changed from row to column */
+        width: 100%;
+      }
+  }
+
+
+  @media (max-width: 600px) {
+    .workGrid {
+    grid-template-areas:
+    "itemA"
+    "itemB"
+    "itemC"
+    "itemD";
+    
+      }
+  }
+
+
+
+
+
+  
+ 
